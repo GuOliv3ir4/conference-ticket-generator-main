@@ -1,61 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Conference ticket generator</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  <!-- Form starts -->
-
-  <h1>Your Journey to Coding Conf 2025 Starts Here!</h1>
-
-  <p>Secure your spot at next year's biggest coding conference.</p>
-
-  <h2>Upload Avatar</h2>
-  <p>
-    Drag and drop or click to upload
-  </p>
-  
-  <p>Upload your photo (JPG or PNG, max size: 500KB).</p>
-
-  <h2>Full Name</h2>
-
-  <h2>Email Address</h2>
-  <p>example@email.com</p>
-
-  <h2>GitHub Username</h2>
-  <p>@yourusername</p>
-
-  <button>Generate My Ticket</button>
-  
-
-  <!-- Form ends -->
-
-  <!-- Generated tickets starts -->
-
-  Congrats, <!-- Full Name -->! Your ticket is ready.
-
-  We've emailed your ticket to <!-- Email Address --> and will send updates in the run up to the event.
-
-  Coding Conf
-  Jan 31, 2025 / Austin, TX
-
-  <!-- Generated tickets ends -->
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main>
+    <div id="pattern-lines">
+      <section class="rest">
+        <h1>Your Journey to Coding Conf 2025 Starts Here!</h1>
+        <p>Secure your spot at next year's biggest coding conference.</p>
+        <form action method="post" class="form">
+          <h2>Upload Avatar</h2>
+          <p>Drag and drop or click to upload</p>
+          <p>Upload your photo (JPG or PNG, max size: 500KB).</p>
+          <h2>Full Name</h2>
+          <h2>Email Address</h2>
+          <p>example@email.com</p>
+          <h2>GitHub Username</h2>
+          <p>@yourusername</p>
+          <button>Generate My Ticket</button>
+        </form>
+      </section>
+    </div>
+  </main>
 </body>
 </html>
